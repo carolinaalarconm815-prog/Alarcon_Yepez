@@ -1,0 +1,120 @@
+.contacto {
+    border: 5pX dashed beige;
+    float: left;
+    background: #A2C4D9;
+    width: 40%;
+    margin: 30px
+}
+
+.servicios{
+    border: 4pX dashed beige;
+    float: left;
+    background: #A2C4D9;
+    width: 31%;
+    margin: 10px
+}
+
+header{
+    background-color: #FFF394 ;
+    border-bottom: 3px solid #FFE761;
+    padding: 10px 20px;
+}
+
+.header-container{
+    display: flex;/*un elemento al lado de otro*/
+    justify-content: space-between;/*reparte la ubicación de los elementos*/
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 20px;/*tamaño de fuente*/
+    font-weight: bold;/*negritas*/
+    color: black;
+    
+
+}
+nav ul{
+    list-style: none;/*quitar viñetas*/
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;/*separar elementos*/
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 1s, color 0.5s;
+}
+
+nav ul li a:hover{
+
+    background-color: #8EB1D1;
+}
+
+
+footer {
+background-color: #1e293b; /* Azul oscuro */
+color: #cbd5e1;
+padding: 20px;
+font-size: 14px;
+clear: both
+}
+
+.footer-container {
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between; /* Texto a la izquierda, contacto a la derecha */
+align-items: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.footer-container p {
+margin: 0;
+}
+
+.footer-container a {
+color: #38bdf8; /* Celeste para resaltar los enlaces directos */
+text-decoration: none;
+}
+
+.footer-container a:hover {
+text-decoration: underline;
+}
+
+footer {
+background-color: #1e293b; /* Azul oscuro */
+color: #cbd5e1;
+padding: 20px;
+font-size: 14px;
+}
+
+.footer-container {
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between; /* Texto a la izquierda, contacto a la derecha */
+align-items: center;
+flex-wrap: wrap;
+gap: 15px;
+}
+
+.footer-container p {
+margin: 0;
+}
+
+.footer-container a {
+color: #38bdf8; /* Celeste para resaltar los enlaces directos */
+text-decoration: none;
+}
+
+.footer-container a:hover {
+text-decoration: underline;
+}
